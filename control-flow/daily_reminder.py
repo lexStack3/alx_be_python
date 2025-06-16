@@ -6,11 +6,11 @@ priority task for the day based on time sensitivity.
 
 # Prompts for a Single Task:
 task = input("Enter your task: ")
-task_priority = input("Priority (high/medium/low): ")
+priority = input("Priority (high/medium/low): ")
 time_bound = input("Is it time-bound? (yes/no): ")
 
 # Process the task based on priority and time sensitivity:
-match task_priority:
+match priority:
     case "high":
         if time_bound == "yes":
             print(f"Reminder: '{task}' is a high priority task that requires immediate attention today!")
