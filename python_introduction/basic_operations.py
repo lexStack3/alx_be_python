@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""Basic arithmetic operations in Python by performing
+predefined calculations.
+"""
 number1 = 10
 number2 = 5
 print("Addition of {} and {} is {}".format(number1,
