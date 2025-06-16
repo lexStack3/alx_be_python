@@ -6,7 +6,7 @@ in a simple calculator program.
 # Prompt for User Input:
 num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
-operator = input("Choose the operaiton (+, -, *, /): ")
+operator = input("Choose the operation (+, -, *, /): ")
 
 # Perform the Calculation Using Match Case:
 match operator:
