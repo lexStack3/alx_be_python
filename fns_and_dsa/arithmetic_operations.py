@@ -1,0 +1,17 @@
+#!/usr/bin/python3
+"""Defines a function <perform_operation>."""
+
+def perform_operation(num1: float, num2: float, operation: str):
+    """Executes basic arithmetic operations."""
+    match operation:
+        case "add":
+            return num1 + num2
+        case "substract":
+            return num1 - num2
+        case "multiply":
+            num1 * num2
+        case "divide":
+            if (num1 == 0) or (num2 == 0):
+                return
+            else:
+                return num1 / num2
