@@ -6,10 +6,10 @@ in a simple calculator program.
 # Prompt for User Input:
 num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
-operator = input("Choose the operation (+, -, *, /): ")
+operation = input("Choose the operation (+, -, *, /): ")
 
 # Perform the Calculation Using Match Case:
-match operator:
+match operation:
     case "+":
         print("The result is {}.".format(num1 + num2))
     case "-":
