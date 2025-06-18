@@ -31,4 +31,4 @@ class Book:
 
     def __repr__(self):
         """Returns a string that would recreate the Book instance."""
-        return f"Book('{self.title}', '{self.author}', '{self.year}')"
+        return f"Book('{self.title}', '{self.author}', {self.year})"
