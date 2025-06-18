@@ -18,12 +18,12 @@ class Rectangle(Shape):
     def __init__(self, length, width):
         """Instantiates a <Rectangle> object."""
         super()
-        self._length = length
-        self._width = width
+        self.length = length
+        self.width = width
 
     def area(self):
         """Returns the area of a rectangle."""
-        return self._length * self._width
+        return self.length * self.width
 
 
 class Circle(Shape):
@@ -33,8 +33,8 @@ class Circle(Shape):
     def __init__(self, radius):
         """Instantiate a <Cricle> object."""
         super()
-        self._radius = radius
+        self.radius = radius
 
     def area(self):
         """Returns the area of a circle."""
-        return pi * (self._radius ** 2)
+        return pi * (self.radius ** 2)
