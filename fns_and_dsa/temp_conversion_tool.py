@@ -26,6 +26,8 @@ def main():
         case 'F':
             print("{}°F is {}°C".format(temperature,
                                         convert_to_celsius(temperature)))
+        case _:
+            print("Invalid temperature. Please enter a numeric value.")
 
 
 if __name__ == "__main__":
